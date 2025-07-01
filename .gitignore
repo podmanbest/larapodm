@@ -1,25 +1,27 @@
-# CakePHP 3
+.idea
+/logs
+/data
+.env
+/.project
+.docker-sync
+/jenkins/jenkins_home
 
-/vendor/*
-/config/app.php
+/logstash/pipeline/*.conf
+/logstash/config/pipelines.yml
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+/nginx/ssl/*.crt
+/nginx/ssl/*.key
+/nginx/ssl/*.csr
 
-/logs/*
-!/logs/empty
+/apache2/ssl/*.crt
+/apache2/ssl/*.key
+/apache2/ssl/*.csr
+/apache2/ssl/*.org
 
-# CakePHP 2
+/.devcontainer/*
+!/.devcontainer/devcontainer.example.json
+!/.devcontainer/docker-compose.extend-example.yml
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+docker-compose.custom.yml
+
+.DS_Store
